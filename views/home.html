@@ -29,6 +29,7 @@
              </div>
            </div>
           </div>
+          <!--Filtros para tipo de comida-->
           <div class="row">
            <div class="col-xs-10 col-xs-offset-1">
              <div class="form-group">
@@ -46,7 +47,7 @@
        </div>
       </div>
 
-      <!--Opciones-->
+      <!--Slider-->
       <div class="container-fluid">
         <div id="principal-view" class="slider">
           <div class="row">
@@ -69,63 +70,63 @@
           </div>
         </div>
 
-        <!--Comida mexicana-->
+        <!--Comida mexicana---------------------->
         <div id="mexican-food" class="hidden margin-div">
           <div class="row">
             <div class="col-xs-6">
-              <img src="../assets/images/tacos.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/tacos.jpg" alt="" class="img-responsive imagen-circle" data-target='#taqueria' data-toggle="modal">
             </div>
             <div class="col-xs-6">
-              <img src="../assets/images/quesadillas.jpg" alt="" class="img-responsive imagen-circle">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="../assets/images/enchiladas.jpg" alt="" class="img-responsive imagen-circle">
-            </div>
-            <div class="col-xs-6">
-              <img src="../assets/images/chile-nogada.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/quesadillas.jpg" alt="" class="img-responsive imagen-circle" data-target='#chilis' data-toggle="modal">
             </div>
           </div>
           <div class="row">
             <div class="col-xs-6">
-              <img src="../assets/images/tacos-pastor.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/enchiladas.jpg" alt="" class="img-responsive imagen-circle" data-target='#torito' data-toggle="modal">
             </div>
             <div class="col-xs-6">
-              <img src="../assets/images/pozole.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/chile-nogada.jpg" alt="" class="img-responsive imagen-circle" data-target='#tack' data-toggle="modal">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <img src="../assets/images/tacos-pastor.jpg" alt="" class="img-responsive imagen-circle" data-target='#tu-taco' data-toggle="modal">
+            </div>
+            <div class="col-xs-6">
+              <img src="../assets/images/pozole.jpg" alt="" class="img-responsive imagen-circle"  data-target='#taco-naco' data-toggle="modal">
             </div>
           </div>
         </div>
 
-        <!--Comida coreana-->
+        <!--Comida coreana---------------------->
         <div id="korean-food" class="hidden margin-div">
           <div class="row">
             <div class="col-xs-6">
-              <img src="../assets/images/kimbap.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/kimbap.jpg" alt="" class="img-responsive imagen-circle" data-target='#dos-hermanos' data-toggle="modal">
             </div>
             <div class="col-xs-6">
-              <img src="../assets/images/bibimbap.jpg" alt="" class="img-responsive imagen-circle">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6">
-              <img src="../assets/images/jajangmyeon.jpg" alt="" class="img-responsive imagen-circle">
-            </div>
-            <div class="col-xs-6">
-              <img src="../assets/images/manduguk.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/bibimbap.jpg" alt="" class="img-responsive imagen-circle" data-target='#no-da-ji' data-toggle="modal">
             </div>
           </div>
           <div class="row">
             <div class="col-xs-6">
-              <img src="../assets/images/tteokbokki.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/jajangmyeon.jpg" alt="" class="img-responsive imagen-circle" data-target='#dae-jang' data-toggle="modal">
             </div>
             <div class="col-xs-6">
-              <img src="../assets/images/ssambap.jpg" alt="" class="img-responsive imagen-circle">
+              <img src="../assets/images/manduguk.jpg" alt="" class="img-responsive imagen-circle" data-target='#sr-kim' data-toggle="modal">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <img src="../assets/images/tteokbokki.jpg" alt="" class="img-responsive imagen-circle" data-target='#namu' data-toggle="modal">
+            </div>
+            <div class="col-xs-6">
+              <img src="../assets/images/ssambap.jpg" alt="" class="img-responsive imagen-circle" data-target='#shifudoki' data-toggle="modal">
             </div>
           </div>
         </div>
 
-        <!--Comida japonesa-->
+        <!--Comida japonesa--------------------->
         <div id="japanese-food" class="hidden margin-div">
           <div class="row">
             <div class="col-xs-6">
@@ -153,7 +154,7 @@
           </div>
         </div>
 
-        <!--Comida peruana-->
+        <!--Comida peruana---------------------->
         <div id="peruvian-food" class="hidden margin-div">
           <div class="row">
             <div class="col-xs-6">
@@ -183,6 +184,516 @@
       </div>
     </main>
 
+    <!---MODALES---------------------------------------------->
+
+    <!--Modales Mexican-Food---------------------------------------------------------------------------------------->
+
+    <!--Modal Restaurante 'Taquería No te rajes'-->
+    <div id="taqueria" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Taquería 'No te rajes'</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av. Alfredo Benavides 1083, Miraflores.</h4>
+                <p class="text-center">Rango: $$$ - $$$$$</p>
+                <p class="text-center">Delivery: Sí.</p>
+                <p class="text-center">Teléfono: 959 511 813.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Chili's'-->
+    <div id="chilis" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Chili's</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av. Alfredo Benavides 1780, Miraflores 15048.</h4>
+                <p class="text-center">Rango: $$$$ - $$$$$</p>
+                <p class="text-center">Delivery: Sí.</p>
+                <p class="text-center">Teléfono: (01) 5055000.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'El torito'-->
+    <div id="torito" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">El Torito</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">General Garzón 1685, Cercado de Lima 15072</h4>
+                <p class="text-center">Rango: $$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: (01) 4609924.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Mr. Tack'-->
+    <div id="tack" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Mr. Tack</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Escardo 609, San Miguel 15088</h4>
+                <p class="text-center">Rango: $$$$ - $$$$$</p>
+                <p class="text-center">Delivery: Sí.</p>
+                <p class="text-center">Teléfono: (01) 3735060.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Chinga tu taco'-->
+    <div id="tu-taco" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Chinga tu taco</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av Mariscal La Mar 1300, Miraflores 15074</h4>
+                <p class="text-center">Rango: $$$$$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: (01) 2853605.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Taco naco'-->
+    <div id="taco-naco" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Taco Naco</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av. Alejandro Velasco Astete 2024, Santiago de Surco 15039</h4>
+                <p class="text-center">Rango: $$$ - $$$$$</p>
+                <p class="text-center">Delivery: Sí.</p>
+                <p class="text-center">Teléfono: (01) 2730425.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+
+    <!--Modales koreanFood------------------------------------------------------------------------------------------>
+
+    <!--Modal Restaurante 'Dos Hermanos'-->
+    <div id="dos-hermanos" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Restaurante Coreano Dos Hermanos</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av. Aviación 4812, Santiago de Surco 15038</h4>
+                <p class="text-center">Rango: $$$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: (01) 5606287.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'No Da Ji'-->
+    <div id="no-da-ji" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">No Da Ji</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av. Aviación 3261, Cercado de Lima 15037</h4>
+                <p class="text-center">Rango: $$$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: (01) 4760093.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Dae Jang Geum'-->
+    <div id="dae-jang" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Dae Jang Geum</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Av San Borja Sur 279, San Borja 15036</h4>
+                <p class="text-center">Rango: $$$$ - $$$$$</p>
+                <p class="text-center">Delivery: Sí.</p>
+                <p class="text-center">Teléfono: (01) 6249254.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Sr. Kim'-->
+    <div id="sr-kim" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Sr. Kim</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Centro Comercial Arenales, Av. Arenales 1737, Lince 15046</h4>
+                <p class="text-center">Rango: $$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: 993 367 996.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'Namu'-->
+    <div id="namu" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">Restaurante Namu</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Centro Comercial Arenales, Av. Arenales 1737, Lince 15073</h4>
+                <p class="text-center">Rango: $$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: 989 791 242.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
+
+    <!--Modal Restaurante 'SHIFUDOKI'-->
+    <div id="shifudoki" class="modal fade my-modals" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="gridSystemModalLabel">SHIFUDOKI</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="container-map-modal">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star yellow" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-star-empty yellow" aria-hidden="true"></span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h4 class="text-center">Centro Comercial Arenales, Av. Arenales 1737, Lince 15046</h4>
+                <p class="text-center">Rango: $$ - $$$$$</p>
+                <p class="text-center">Delivery: No.</p>
+                <p class="text-center">Teléfono: 939 726 487.</p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn col-xs-4 col-xs-offset-4 button-modal" data-dismiss="modal">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.modal -->
     <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="../js/home.js"></script>

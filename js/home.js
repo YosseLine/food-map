@@ -33,10 +33,15 @@ $(document).ready(function() {
     }
   });
 
-  // Museover 
+  // Mouseover
   $imagesFood.on('mouseover', function() {
     $(this).addClass('filter');
   }).mouseout(function() {
     $(this).removeClass('filter');
   });
+});
+
+// Modales
+$('.my-modals').on('shown.bs.modal', function() {
+  $('#myInput').focus();
 });
