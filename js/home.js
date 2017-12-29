@@ -6,7 +6,7 @@ $(document).ready(function() {
   var $japaneseFood = $('#japanese-food');
   var $peruvianFood = $('#peruvian-food');
   var $venezuelanFood = $('#venezuelan-food');
-  var $boxImage = $('#box-image');
+  var $imagesFood = $('.imagen-circle');
 
   /* Filtrando categorias*/
   $ButtonSelectFood.on('change', function() {
@@ -31,5 +31,12 @@ $(document).ready(function() {
       $principalView.removeClass('hidden');
       $('#korean-food, #japanese-food, #peruvian-food, #mexican-food, #venezuelanFood').addClass('hidden');
     }
+  });
+
+  // Museover 
+  $imagesFood.on('mouseover', function() {
+    $(this).addClass('filter');
+  }).mouseout(function() {
+    $(this).removeClass('filter');
   });
 });
