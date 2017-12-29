@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var $ButtonSelectFood = $('#button-select');
+  var $ButtonSelectFood = $('select');
   var $principalView = $('#principal-view');
   var $mexicanFood = $('#mexican-food');
   var $koreanFood = $('#korean-food');

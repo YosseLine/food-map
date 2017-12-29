@@ -79,4 +79,84 @@ var data = {
       }
     ],
   },
+  'comida japonesa': {
+    'platos': [
+      {
+        'nombre': 'Tsukemono',
+        'dirección': 'El Polo 660, Santiago de Surco 15023',
+        'photo': 'https://cdnb.20m.es/la-gulateca/files/2015/05/encurtidos.jpg',
+        'rango': '$$ - $$$$$'
+      },
+      {
+        'nombre': 'Ramen',
+        'dirección': 'Av. Manuel Olguin 561, Manuel Olguin, Santiago de Surco 33',
+        'photo': 'https://steamykitchen.com/wp-content/uploads/2011/04/miso-ramen-recipe-feature-20912.jpg',
+        'rango': '$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Katsu',
+        'dirección': 'Av. Aviación 2982, San Borja 15036',
+        'photo': 'https://gurunavi.com/en/japanfoodie/article/katsu/img/04_Katsu.jpg',
+        'rango': '$$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Sushi',
+        'dirección': 'Av. la Paz 1055, Miraflores 15074',
+        'photo': 'http://www.restauranteikki.com/images/hi/responsive/sushi/about-image.jpg',
+        'rango': '$$ - $$$$$'
+      },
+      {
+        'nombre': 'Tofu',
+        'dirección': 'Calle San Martin 399, Miraflores 15074',
+        'photo': 'https://fthmb.tqn.com/dsaD2kvRQ_P4idUlvTUwtOIJj1o=/3865x2576/filters:fill(auto,1)/healthy-tofu-106442406-5882426f5f9b58bdb3940291.jpg',
+        'rango': '$$$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Tempura',
+        'dirección': 'Av. Paseo de la República 4084, Miraflores Lima 18',
+        'photo': 'http://aromasian.com/wp-content/uploads/2017/08/japanese-fried-snacks-tempura.jpg',
+        'rango': '$$$ - $$$$$'
+      }
+    ],
+  },
+  'comida peruana': {
+    'platos': [
+      {
+        'nombre': 'Causa',
+        'dirección': 'Av. Alfredo Benavides 2392, Miraflores 15048',
+        'photo': 'https://www.atrapalo.pe/common/photo/res/15921/140280/ticr_0_0.jpg',
+        'rango': '$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Ceviche',
+        'dirección': 'Av. Guardia Civil 856, San Isidro 15036',
+        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-902b044aaa8a8ffe39452fb4df029fb1.jpg',
+        'rango': '$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Ají de Gallina',
+        'dirección': 'Av. Javier Prado Este 6326, Lima 15024',
+        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-b3da50cf88ecdf8dc4ff58450de1099c.jpg',
+        'rango': '$$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Anticuchos',
+        'dirección': 'Malecón Cisneros 1470, Miraflores 15074',
+        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-9dccb0e12d9fa41af4937c71e475ecfc.jpg',
+        'rango': '$$ - $$$$$'
+      },
+      {
+        'nombre': 'Juanes',
+        'dirección': 'Av. Camino Real 101, San Isidro 15073',
+        'photo': 'https://img.peru21.pe/files/ec_article_multimedia_gallery/uploads/2017/08/09/598ba3d5b6978.jpeg',
+        'rango': '$$$$$ - $$$$$'
+      },
+      {
+        'nombre': 'Aeropuerto',
+        'dirección': 'Avenida Enrique Canaval y Moreyra 605, San Isidro 15036',
+        'photo': 'https://4.bp.blogspot.com/-dG54hS9-9Ls/V4wtsqD9cOI/AAAAAAAAH2g/rxV9ehCO3pwt7n7TUVssTBk9XCYiOAgOgCLcB/s1600/aeropuerto-chifa-721x541.jpg',
+        'rango': '$$$ - $$$$$'
+      }
+    ],
+  },
 };
