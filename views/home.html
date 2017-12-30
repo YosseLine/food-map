@@ -16,41 +16,124 @@
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
   <body>
-    <main class="container-flex-column background-food">
+    <header class="hidden-xs hidden-sm">
       <div class="container-fluid">
+        <div class="row">
+          <div class=" col-md-12 col-lg-12">
+            <h1 class="text-center">Food <i class="fa fa-cutlery" aria-hidden="true"></i> Map</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class=" background-food">
+      <div class="container-fluid hidden-lg hidden-md">
         <div class="row">
           <div class="col-xs-12">
             <h1 class="text-center">Food <i class="fa fa-cutlery" aria-hidden="true"></i> Map</h1>
+        </div>
+       </div>
+      </div>
+
+      <!--Slider que solo será visible en DESKTOP-->
+      <div class="container-fluid hidden-xs hidden-sm">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!--Slider-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="../assets/images/chile-nogada.jpg" alt="Chile" class="img-responsive">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../assets/images/kimbap.jpg" alt="Kimbap" class="img-responsive">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../assets/images/sushi.jpg" alt="Sushi" class="img-responsive">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="../assets/images/juanes.jpg" alt="Juanes" class="img-responsive">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row hidden-xs hidden-sm">
+          <div class="col-lg-12">
+            <h2 class="text-center">Encuentra todo los Restaurantes que buscas...¡Aquí!</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="container-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+            </div>
+          </div>
          </div>
+         <div class="row hidden-xs hidden-sm">
+           <div class="col-lg-12">
+             <h3 class="text-center col-lg-12">"NO HAY AMOR MÁS SINCERO QUE EL AMOR A LA COMIDA".</h3>
+           </div>
+         </div>
+         <!--Filtros para tipo de comida-->
          <div class="row">
-           <div class="col-xs-12">
-             <div class="container-map">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
-             </div>
+          <div class="col-xs-10 col-xs-offset-1">
+            <div class="form-group">
+             <label for="sel1" class="label-color">¡Comida a un paso de tí!</label>
+             <select class="form-control" id="sel1">
+               <option value="principal">Seleccionar</option>
+               <option class="styles-option" value="mexico">Mexicana</option>
+               <option class="styles-option" value="corea">Coreana</option>
+               <option class="styles-option" value="japon">Japonesa</option>
+               <option class="styles-option" value="peru">Peruana</option>
+             </select>
            </div>
           </div>
-          <!--Filtros para tipo de comida-->
-          <div class="row">
-           <div class="col-xs-10 col-xs-offset-1">
-             <div class="form-group">
-              <label for="sel1" class="label-color">¡Comida a un paso de tí!</label>
-              <select class="form-control" id="sel1">
-                <option value="principal">Seleccionar</option>
-                <option class="styles-option" value="mexico">Mexicana</option>
-                <option class="styles-option" value="corea">Coreana</option>
-                <option class="styles-option" value="japon">Japonesa</option>
-                <option class="styles-option" value="peru">Peruana</option>
-              </select>
-            </div>
-           </div>
-         </div>
-       </div>
+        </div>
       </div>
 
       <!--Slider-->
       <div class="container-fluid">
         <div id="principal-view" class="slider">
-          <div class="row">
+          <div class="row hidden-xs hidden-sm">
+            <div class="col-lg-12 text-center">
+              <img src="https://pics.me.me/cuando-veo-que-ya-estan-trayendo-la-comida-gif-9601439.png" alt="Stitch" class="image-stitch">
+            </div>
+          </div>
+          <div class="row hidden-lg hidden-md">
             <div class="col-xs-12">
               <ul>
 				       <li>
@@ -73,26 +156,26 @@
         <!--Comida mexicana---------------------->
         <div id="mexican-food" class="hidden margin-div">
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tacos.jpg" alt="" class="img-responsive imagen-circle" data-target='#taqueria' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/quesadillas.jpg" alt="" class="img-responsive imagen-circle" data-target='#chilis' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/enchiladas.jpg" alt="" class="img-responsive imagen-circle" data-target='#torito' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/chile-nogada.jpg" alt="" class="img-responsive imagen-circle" data-target='#tack' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tacos-pastor.jpg" alt="" class="img-responsive imagen-circle" data-target='#tu-taco' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/pozole.jpg" alt="" class="img-responsive imagen-circle"  data-target='#taco-naco' data-toggle="modal">
             </div>
           </div>
@@ -101,26 +184,26 @@
         <!--Comida coreana---------------------->
         <div id="korean-food" class="hidden margin-div">
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/kimbap.jpg" alt="" class="img-responsive imagen-circle" data-target='#dos-hermanos' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/bibimbap.jpg" alt="" class="img-responsive imagen-circle" data-target='#no-da-ji' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/jajangmyeon.jpg" alt="" class="img-responsive imagen-circle" data-target='#dae-jang' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/manduguk.jpg" alt="" class="img-responsive imagen-circle" data-target='#sr-kim' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tteokbokki.jpg" alt="" class="img-responsive imagen-circle" data-target='#namu' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/ssambap.jpg" alt="" class="img-responsive imagen-circle" data-target='#shifudoki' data-toggle="modal">
             </div>
           </div>
@@ -129,26 +212,26 @@
         <!--Comida japonesa--------------------->
         <div id="japanese-food" class="hidden margin-div">
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tsukemono.jpg" alt="" class="img-responsive imagen-circle" data-target='#osaka' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/ramen.jpg" alt="" class="img-responsive imagen-circle" data-target='#ache' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/katsu.jpg" alt="" class="img-responsive imagen-circle" data-target='#don-katsu' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/sushi.jpg" alt="" class="img-responsive imagen-circle" data-target='#maido' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tofu.jpg" alt="" class="img-responsive imagen-circle" data-target='#izakaya' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/tempura.jpg" alt="" class="img-responsive imagen-circle" data-target='#toshiro' data-toggle="modal">
             </div>
           </div>
@@ -157,26 +240,26 @@
         <!--Comida peruana---------------------->
         <div id="peruvian-food" class="hidden margin-div">
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/causa.jpg" alt="" class="img-responsive imagen-circle" data-target='#sabores' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/ceviche.jpg" alt="" class="img-responsive imagen-circle" data-target='#punta-sal' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/aji-gallina.jpg" alt="" class="img-responsive imagen-circle" data-target='#social' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/anticuchos.jpg" alt="" class="img-responsive imagen-circle" data-target='#rigoletto' data-toggle="modal">
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/juanes.jpg" alt="" class="img-responsive imagen-circle" data-target='#titi' data-toggle="modal">
             </div>
-            <div class="col-xs-6">
+            <div class="col-xs-6 col-sm-6 text-center">
               <img src="../assets/images/aeropuerto.jpg" alt="" class="img-responsive imagen-circle" data-target='#panchita' data-toggle="modal">
             </div>
           </div>

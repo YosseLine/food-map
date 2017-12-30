@@ -39,9 +39,9 @@ $(document).ready(function() {
   }).mouseout(function() {
     $(this).removeClass('filter');
   });
-});
 
-// Modales
-$('.my-modals').on('shown.bs.modal', function() {
-  $('#myInput').focus();
+  // Modales
+  $('.my-modals').on('shown.bs.modal', function() {
+    $('#myInput').focus();
+  });
 });

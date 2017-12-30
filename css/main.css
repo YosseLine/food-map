@@ -58,11 +58,10 @@ select.form-control{
   margin-top: 4vh;
 }
 .label-color{
-  color: #FFF;
+  color: #f6a61b;
 }
 .styles-option{
     background-color: rgba(0,0,0,0.2);
-    width: 120px;
 }
 
 /*Estilos para el carrusel automático*/
@@ -114,6 +113,7 @@ select.form-control{
   width: 150px;
   border-radius: 50%;
   margin-top: 2vh;
+  display: inline-block;
 }
 
 /*Clase especial para el evento mouseover*/
@@ -141,7 +141,7 @@ select.form-control{
 }
 .container-map-modal iframe{
   padding: 0;
-  height: 28vh;
+  height: 100%;
   border-radius: 10px;
   border: 0;
 }
@@ -160,4 +160,80 @@ select.form-control{
   background-color: rgba(0,0,0,0.2);
   border: 2px solid #f6a61b;
   color: white;
+}
+
+@media (min-width: 768px){
+  h1{
+    font-size: 60px;
+  }
+  .container-map{
+    height: 39vh;
+  }
+  .slider img{
+    margin-top: 5vh;
+  }
+  .imagen-circle {
+    height: 250px;
+    width: 250px;
+}
+
+@media (min-width: 992px) {
+  h1{
+    font-size: 3em;
+  }
+  header{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1vh 0 1vh 0;
+    position: absolute;
+    z-index: 1000;
+  }
+  /*Estilos para el carrusel*/
+  .carousel {
+    margin-top: 4vh;
+    width: 100%;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    width: 100vw;
+    height: 70vh;
+  }
+  /*Estilos para el mapa*/
+  h2, h3{
+    font-family: 'Indie Flower', cursive;
+    color: #f6a61b;
+    font-weight: bold;
+  }
+  .container-map{
+    margin-top: 4vh;
+    align-items: center;
+    border: 1px solid #f6a61b;
+    height: 71.5vh;
+    padding: 10px;
+    border-radius: 10px
+  }
+  .container-map iframe{
+    padding: 0;
+    height: 100%;
+    border-radius: 10px;
+    border: 0;
+  }
+  /*Estilos para imagen de Stitch*/
+  .slider img{
+    width: 50%;
+    height: 100%;
+  }
+  .image-stitch{
+    margin-bottom: 2vh;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #f6a61b;
+  }
+  img.imagen-circle{
+    width: 21vw;
+    height: 38vh;
+    margin-bottom: 4vh;
+  }
+}
+@media (min-width: 1200px) {
+
 }
