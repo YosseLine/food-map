@@ -17,27 +17,27 @@
 
 * Vista splash con duración de 2 a 5 segundos que redirecciona a la vista de inicio:
 
-![Foodmap](assets/images/splash.png)
+![Foodmap](assets/images/splash.jpg)
 
 * En la vista principal se muestran todos los restaurantes ceerca del usuario, junto con el input para filtrar su elección:
 
-![Foodmap](assets/images/2.png)
+![Foodmap](assets/images/2.jpg)
 
 * Ya que el usuario hizo la elección del filtro deben mostrarse únicamente aquellos restaurantes que cumplan con la condición:
 
-![Foodmap](assets/images/3.png)
+![Foodmap](assets/images/3.jpg)
 
 * Al hacer click en cualquier imagen de un restaurante, se observa un evento 'mouseover':
 
-![Foodmap](assets/images/4.png)
+![Foodmap](assets/images/4.jpg)
 
 * Al seleccionar alguno de los restaurantes, se muestra la información de éste a través de un modal:
 
-![Foodmap](assets/images/5.png)
+![Foodmap](assets/images/5.jpg)
 
 * Una vez cerrado el modal, se vuelve a la vista principal:
 
- ![Foodmap](assets/images/6.png)
+ ![Foodmap](assets/images/6.jpg)
 
 ***
 
