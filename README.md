@@ -49,7 +49,11 @@
 
 - Los bordes de los botones fueron modificados para una mejor experiencia.
 
-- Los modales han sido modificados para conservar las tonalidades de la página.
+- Los modales han sido modificados, conservando las tonalidades de la página.
+
+- El color de la barra de navegador que se observará al abrir la web-app 'Food Map' desde un móvil, fue cambiado al color representativo de la página web, para una mejor experiencia.
+
+- El estilo del cursor fue modificado para una mejor interacción con la web-app.
 
 ***
 
