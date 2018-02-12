@@ -1,162 +1,201 @@
 var data = {
-  'comida mexicana': {
-    'platos': [
-      {
-        'nombre': 'Tacos',
-        'dirección': 'Av. Alejandro Velasco Astete 2024, Santiago de Surco 15039',
-        'photo': 'http://elboqueronviajero.com/wp-content/uploads/2016/08/01-Tacos-parte-de-la-comida-mexicana.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Quesadillas',
-        'dirección': 'Av. Aviación 4583, Santiago de Surco 15038',
-        'photo': 'https://media-cdn.tripadvisor.com/media/photo-s/0f/50/35/2a/quesadillas.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Enchiladas Rojas',
-        'dirección': 'Av. Alfredo Benavides 1083, Miraflores',
-        'photo': 'http://images-gmi-pmc.edge-generalmills.com/e0455a83-401b-4ef3-b94d-4bc22af5f7c5.jpg',
-        'rango': '$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Tacos al Pastor',
-        'dirección': 'Pancho Fierro 108, San Isidro 15073',
-        'photo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/01_Tacos_al_Pastor.jpg/640px-01_Tacos_al_Pastor.jpg',
-        'rango': '$$ - $$$$$'
-      },
-      {
-        'nombre': 'Chile en Nogada',
-        'dirección': 'General Garzón 1685, Cercado de Lima 15072',
-        'photo': 'http://wrmx00.epimg.net/radio/imagenes/2017/09/07/sociedad/1504811574_341407_1504811961_sumario_normal.jpg',
-        'rango': '$$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Pozole',
-        'dirección': 'Av. Javier Prado Este 4200, Santiago de Surco 15023',
-        'photo': 'http://wrmx00.epimg.net/radio/imagenes/2017/09/07/sociedad/1504811574_341407_1504812071_sumario_normal.jpg',
-        'rango': '$$$ - $$$$$'
-      }
-    ],
-  },
-  'comida coreana': {
-    'platos': [
-      {
-        'nombre': 'kimbap',
-        'dirección': 'Av. Aviación 4812, Santiago de Surco 15038',
-        'photo': 'https://ugc.kn3.net/i/origin/http://media.tumblr.com/94fc5a205794572a341b4a6dd477891a/tumblr_inline_ncl1gvdnT01t05yuv.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Bibimbap',
-        'dirección': 'Calle Las Orquídeas 447, San Isidro Lima 27',
-        'photo': 'https://img.chilango.com/2017/07/bibimbap-comida-coreana-1.jpg',
-        'rango': '$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Jajangmyeon',
-        'dirección': 'Av San Luis 2256, San Borja 15037',
-        'photo': 'https://www.koreanbapsang.com/wp-content/uploads/2011/05/jajangmyeon-e1447380359794.jpg',
-        'rango': '$$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Manduguk',
-        'dirección': 'Av San Borja Sur 279, San Borja 15036',
-        'photo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Korean.cuisine-Manduguk-01.jpg/1200px-Korean.cuisine-Manduguk-01.jpg',
-        'rango': '$$ - $$$$$'
-      },
-      {
-        'nombre': 'Tteokbokki',
-        'dirección': 'Av. Aviación 3261, Cercado de Lima 15037',
-        'photo': 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tteokbokki.JPG/1200px-Tteokbokki.JPG',
-        'rango': '$$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Ssambap',
-        'dirección': 'Centro Comercial Arenales, Av. Arenales 1737, Lince 15046',
-        'photo': 'https://i.ytimg.com/vi/RG3jyVIghUQ/maxresdefault.jpg',
-        'rango': '$$$ - $$$$$'
-      }
-    ],
-  },
-  'comida japonesa': {
-    'platos': [
-      {
-        'nombre': 'Tsukemono',
-        'dirección': 'El Polo 660, Santiago de Surco 15023',
-        'photo': 'https://cdnb.20m.es/la-gulateca/files/2015/05/encurtidos.jpg',
-        'rango': '$$ - $$$$$'
-      },
-      {
-        'nombre': 'Ramen',
-        'dirección': 'Av. Manuel Olguin 561, Manuel Olguin, Santiago de Surco 33',
-        'photo': 'https://steamykitchen.com/wp-content/uploads/2011/04/miso-ramen-recipe-feature-20912.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Katsu',
-        'dirección': 'Av. Aviación 2982, San Borja 15036',
-        'photo': 'https://gurunavi.com/en/japanfoodie/article/katsu/img/04_Katsu.jpg',
-        'rango': '$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Sushi',
-        'dirección': 'Av. la Paz 1055, Miraflores 15074',
-        'photo': 'http://www.restauranteikki.com/images/hi/responsive/sushi/about-image.jpg',
-        'rango': '$$ - $$$$$'
-      },
-      {
-        'nombre': 'Tofu',
-        'dirección': 'Calle San Martin 399, Miraflores 15074',
-        'photo': 'https://fthmb.tqn.com/dsaD2kvRQ_P4idUlvTUwtOIJj1o=/3865x2576/filters:fill(auto,1)/healthy-tofu-106442406-5882426f5f9b58bdb3940291.jpg',
-        'rango': '$$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Tempura',
-        'dirección': 'Av. Paseo de la República 4084, Miraflores Lima 18',
-        'photo': 'http://aromasian.com/wp-content/uploads/2017/08/japanese-fried-snacks-tempura.jpg',
-        'rango': '$$$ - $$$$$'
-      }
-    ],
-  },
-  'comida peruana': {
-    'platos': [
-      {
-        'nombre': 'Causa',
-        'dirección': 'Av. Alfredo Benavides 2392, Miraflores 15048',
-        'photo': 'https://www.atrapalo.pe/common/photo/res/15921/140280/ticr_0_0.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Ceviche',
-        'dirección': 'Av. Guardia Civil 856, San Isidro 15036',
-        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-902b044aaa8a8ffe39452fb4df029fb1.jpg',
-        'rango': '$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Ají de Gallina',
-        'dirección': 'Av. Javier Prado Este 6326, Lima 15024',
-        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-b3da50cf88ecdf8dc4ff58450de1099c.jpg',
-        'rango': '$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Anticuchos',
-        'dirección': 'Malecón Cisneros 1470, Miraflores 15074',
-        'photo': 'https://d1bvpoagx8hqbg.cloudfront.net/originals/el-top-cinco-platos-peruanos-debes-probar-tu-visita-a-lima-a-comer-9dccb0e12d9fa41af4937c71e475ecfc.jpg',
-        'rango': '$$ - $$$$$'
-      },
-      {
-        'nombre': 'Juanes',
-        'dirección': 'Av. Camino Real 101, San Isidro 15073',
-        'photo': 'https://img.peru21.pe/files/ec_article_multimedia_gallery/uploads/2017/08/09/598ba3d5b6978.jpeg',
-        'rango': '$$$$$ - $$$$$'
-      },
-      {
-        'nombre': 'Aeropuerto',
-        'dirección': 'Avenida Enrique Canaval y Moreyra 605, San Isidro 15036',
-        'photo': 'https://4.bp.blogspot.com/-dG54hS9-9Ls/V4wtsqD9cOI/AAAAAAAAH2g/rxV9ehCO3pwt7n7TUVssTBk9XCYiOAgOgCLcB/s1600/aeropuerto-chifa-721x541.jpg',
-        'rango': '$$$ - $$$$$'
-      }
-    ],
-  },
+  'comida mexicana': [
+    {
+      'nombre': 'Taquería No te rajes',
+      'dirección': 'Av. Alfredo Benavides 1083, Miraflores.',
+      'photo': 'https://i.pinimg.com/736x/aa/41/0d/aa410daaa0eca87a9bb674d30c94f2c3--ground-beef-tacos-mexican-tacos.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '959 511 813'
+    },
+    {
+      'nombre': 'Chilis',
+      'dirección': 'Av. Alfredo Benavides 1780, Miraflores 15048.',
+      'photo': 'https://www.listoyservido.com/uploadedImages/img_6919_6003.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 5055000'
+    },
+    {
+      'nombre': 'El Torito',
+      'dirección': 'General Garzón 1685, Cercado de Lima 15072',
+      'photo': 'https://www.meals.com/ImagesRecipes/140513lrg.jpg',
+      'rango': '$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 4609924'
+    },
+    {
+      'nombre': 'Mr. Tack',
+      'dirección': 'Escardo 609, San Miguel 15088',
+      'photo': 'http://www.taqueriasihay.com/img/gallery/small/taco-de-pastor.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 3735060'
+    },
+    {
+      'nombre': 'Chinga tu taco',
+      'dirección': 'Av Mariscal La Mar 1300, Miraflores 15074',
+      'photo': 'https://i.pinimg.com/originals/da/82/a6/da82a66fb260e7791a8ffab741fd37aa.jpg',
+      'rango': '$$$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 2853605'
+    },
+    {
+      'nombre': 'Taco Naco',
+      'dirección': 'Av. Alejandro Velasco Astete 2024, Santiago de Surco 15039',
+      'photo': 'https://i.pinimg.com/736x/0b/5e/11/0b5e11573836783446a807da0d4f8300--mexico-sons.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 2730425'
+    }],
+  'comida coreana': [
+    {
+      'nombre': 'Restaurante Coreano Dos hermanos',
+      'dirección': 'Av. Aviación 4812, Santiago de Surco 15038',
+      'photo': 'https://i.pinimg.com/736x/5c/77/c1/5c77c13bcab99eed49872eec668997a4--korean-recipes-korean-food.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 5606287'
+    },
+    {
+      'nombre': 'No Da Ji',
+      'dirección': 'Av. Aviación 3261, Cercado de Lima 15037',
+      'photo': 'https://i.pinimg.com/736x/81/45/b9/8145b9711f72be2ea9ef649659fca8c6--les-uns-korean-beef.jpg',
+      'rango': '$$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 4760093'
+    },
+    {
+      'nombre': 'Dae Jang Geum',
+      'dirección': 'Av San Borja Sur 279, San Borja 15036',
+      'photo': 'https://i.pinimg.com/originals/3b/9a/47/3b9a47a31093044eefad4bf4d2670f2b.jpg',
+      'rango': '$$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 6249254'
+    },
+    {
+      'nombre': 'Sr. Kim',
+      'dirección': 'Centro Comercial Arenales, Av. Arenales 1737, Lince 15046',
+      'photo': 'https://i.pinimg.com/originals/d5/99/cf/d599cfa636516f37a475b96478724748.jpg',
+      'rango': '$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '993 367 996'
+    },
+    {
+      'nombre': 'Restaurante Namu',
+      'dirección': 'Centro Comercial Arenales, Av. Arenales 1737, Lince 15073',
+      'photo': 'https://i.pinimg.com/originals/5d/f0/06/5df006d2a98b298136d9e6483950ad01.jpg',
+      'rango': '$$$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': ' 989 791 242'
+    },
+    {
+      'nombre': 'Shifudoki',
+      'dirección': 'Centro Comercial Arenales, Av. Arenales 1737, Lince 15046',
+      'photo': 'https://i.pinimg.com/736x/45/95/7d/45957d44ba1680b270ecb075e8b06fd5--asian-noodle-recipes-asian-recipes.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '939 726 487'
+    }
+  ],
+  'comida japonesa': [
+    {
+      'nombre': 'Osaka',
+      'dirección': 'El Polo 660, Santiago de Surco 15023',
+      'photo': 'https://i.pinimg.com/originals/a5/b4/47/a5b4470dd95a3e5fdc748d6362c46763.jpgn',
+      'rango': '$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 4377320'
+    },
+    {
+      'nombre': 'Ache',
+      'dirección': 'Av. la Paz 1055, Miraflores 15074',
+      'photo': 'https://i.pinimg.com/736x/4e/30/71/4e3071d74e5aff1b399297bc17e18c6a--japanese-food.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 4377320'
+    },
+    {
+      'nombre': 'Maido',
+      'dirección': 'Calle San Martin 399, Miraflores 15074',
+      'photo': 'http://www.restauranteburbu.com/wp-content/uploads/2016/12/ChickenKatsu2016-400x400.png',
+      'rango': '$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 4462512'
+    },
+    {
+      'nombre': 'Izakaya',
+      'dirección': ' Av. Aviación 2704, San Borja 15036',
+      'photo': 'http://www.shoogun.cl/wp-content/uploads/2014/12/galeria-domburimono-katsudon.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 4751586'
+    },
+    {
+      'nombre': 'Toshiros',
+      'dirección': 'Av. Los Conquistadores 450, San Isidro 15073',
+      'photo': 'https://i.pinimg.com/736x/21/48/9a/21489a11d144d3cd0716d04770e77bb9--teriyaki-stir-fry-pollo-teriyaki.jpg',
+      'rango': '$$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 2217243'
+    },
+    {
+      'nombre': 'Don Katsu',
+      'dirección': 'Horacio Cachay Diaz 216, La Victoria 15034',
+      'photo': 'https://blogosferathermomix.es/thermomixporelmundo/wp-content/uploads/sites/2/2017/08/ternera-teriyaki-thermomix-receta-001-400x400.jpg',
+      'rango': '$$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 6279800'
+    }
+  ],
+  'comida peruana': [
+    {
+      'nombre': 'Restaurante Sabores Peruanos',
+      'dirección': 'Lima, Calle 18, Benavides 2392, Miraflores',
+      'photo': 'https://i.pinimg.com/originals/a2/e1/ff/a2e1ff037cdd0fff36ca12bdb1bbd7de.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 4491395'
+    },
+    {
+      'nombre': 'Restaurante Punta Sal',
+      'dirección': 'Av. Primavera 443, Cercado de Lima 15037',
+      'photo': 'https://i.pinimg.com/originals/48/cd/f8/48cdf8224a98f2f58d25d70d37d17849.jpg',
+      'rango': '$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 3723416'
+    },
+    {
+      'nombre': 'SOCIAL',
+      'dirección': 'Av. la Paz 1099, Miraflores 15074',
+      'photo': 'https://i.pinimg.com/originals/00/5f/e5/005fe51d93ac0092acb96602f9e3b0db.jpg',
+      'rango': '$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '(01) 2008070'
+    },
+    {
+      'nombre': 'Rigoletto Lima',
+      'dirección': 'Calle Colón 161, Miraflores 15074',
+      'photo': 'https://i.pinimg.com/736x/e0/ff/c7/e0ffc7b8b380ba94586fd2f15a47a48b--peruvian-cuisine-peruvian-recipes.jpg',
+      'rango': '$$$$$ - $$$$$',
+      'delivery': 'Sí.',
+      'teléfono': '981 483 975'
+    },
+    {
+      'nombre': 'Titi',
+      'dirección': 'Av. Javier Prado Este 1212, San Isidro 15036',
+      'photo': 'https://i.pinimg.com/736x/fa/67/b0/fa67b0674fe2fde5b37922c2e1d2c15f--peruvian-cuisine-peruvian-recipes.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 2248189'
+    },
+    {
+      'nombre': 'Panchita',
+      'dirección': ' Calle 2 de Mayo 298, Miraflores 15074',
+      'photo': 'https://img-global.cpcdn.com/002_recipes/292227bd22a34907/400x400cq70/photo.jpg',
+      'rango': '$$$ - $$$$$',
+      'delivery': 'No.',
+      'teléfono': '(01) 2425957'
+    }
+  ]
 };
